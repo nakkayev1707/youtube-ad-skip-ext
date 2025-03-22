@@ -5,6 +5,11 @@
         console.log('🎯 Skipping...');
         skipButton.click();
         video.playbackRate = 16;
+        try {
+            video.currentTime = video.duration;
+        } catch (e) {
+            console.log(e)
+        }
     }
 }
 // to skip also if background.js is not alive (automatically shut down by the browser when idle)
