@@ -1,4 +1,5 @@
-﻿setInterval(() => {
+﻿// will be removed most likely as all we need is in content.js
+setInterval(() => {
     chrome.tabs.query({ url: "*://*.youtube.com/*" }, tabs => {
         for (let tab of tabs) {
             chrome.tabs.sendMessage(tab.id, { action: 'skipAd' }, response => {

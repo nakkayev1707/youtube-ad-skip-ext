@@ -8,6 +8,10 @@
         video.currentTime = video.duration;
     }
 }
+// to skip also if background.js is not alive (automatically shut down by the browser when idle)
+setInterval(() => {
+    trySkipAd()
+}, 1000);
 
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
