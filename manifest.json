@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "YouTube Ad Skipper",
   "version": "1.0",
-  "description": "Skip YouTube ads and control video with external input",
+  "description": "Skips or speeds up YouTube ads using clever tricks",
   "permissions": ["tabs", "scripting"],
   "host_permissions": ["*://*.youtube.com/*"],
   "background": {
@@ -15,5 +15,8 @@
   "action": {
     "default_title": "YT Skipper",
     "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icons/icon48.png"
   }
 }
