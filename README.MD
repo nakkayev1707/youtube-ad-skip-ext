@@ -52,4 +52,4 @@ MIT License. Feel free to fork and improve!
 
 ### 🙌 Contributions Welcome
 
-Pull requests, issues, and suggestions are always welcome. Let’s make this better together!
+Pull requests, issues, and suggestions are always welcome.
